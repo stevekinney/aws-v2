@@ -6,7 +6,7 @@ So, we have a problem where if we visit the initial page everything works and cl
 
 One way that we can handle this is to go back into our S3 bucket and make the error page point to the entry point of our application.
 
-Under **Static website hosting** set the **Error document** to `404.html`.
+Under **Static website hosting** set the **Error document** to `index.html`.
 
 Now, this kind of works, but it has a number of problems:
 
