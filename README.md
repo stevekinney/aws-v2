@@ -6,7 +6,7 @@
 - [03 - Billing](content/03%20-%20Billing.md)
 - [04 - IAM](content/04%20-%20IAM.md)
 - [05 - S3](content/05%20-%20S3.md)
-- [06- Registering a Domain Name](content/06-%20Registering%20a%20Domain%20Name.md)
+- [06 - Registering a Domain Name](content/06%20-%20Registering%20a%20Domain%20Name.md)
 - [07 - S3 Policies](content/07%20-%20S3%20Policies.md)
 - [08 - AWS CLI](content/08%20-%20AWS%20CLI.md)
 - [09 - Route 53](content/09%20-%20Route%2053.md)
