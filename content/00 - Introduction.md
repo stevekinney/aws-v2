@@ -15,5 +15,5 @@ We're going to be looking at getting a single-page application…
 
 We're not going to cover the following:
 
-- **Servers**. This course is focused on the distributiuon of your client-side application.
+- **Servers**. This course is focused on the distributiuon of your client-side application. Jem Young has an awesome [course on setting up servers](https://frontendmasters.com/courses/fullstack-v2/) to watch after this.
 - **Serverless**. [Scott Moss](https://frontendmasters.com/teachers/scott-moss/) has [an amazing workshop](https://frontendmasters.com/courses/serverless-aws/) that you should totally go watch—after this one, of course.
