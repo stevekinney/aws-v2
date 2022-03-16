@@ -49,7 +49,7 @@ We're now going to bring in our ability to support client-side routing.
 - Click **Create custom error response**.
 - Select **404: Not Found** for **HTTP error code**.
 - Change **Customize error response** to **Yes**.
-- Set **Response page path** to `index.html`.
+- Set **Response page path** to `/index.html`.
 - Select **200: OK** for our **HTTP Response code**.
 
 ![Custom Error Response](Attachments/custom-error-response.png)
