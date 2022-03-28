@@ -23,8 +23,8 @@ If AWS fails at updating your bucket policy on your behalf, you can do it yourse
       "Principal": {
         "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity EP6AJZA5FKG3P"
       },
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::superawesome.xyz/*"
+      "Action": ["s3:GetObject", "s3:Listbucket"],
+      "Resource": ["arn:aws:s3:::superawesome.xyz/*", "arn:aws:s3:::superawesome.xyz"]
     }
   ]
 }
