@@ -14,19 +14,21 @@ If AWS fails at updating your bucket policy on your behalf, you can do it yourse
 
 ```json
 {
-  "Version": "2012-10-17",
-  "Id": "Policy1639917562467",
-  "Statement": [
-    {
-      "Sid": "Stmt1639917558597",
-      "Effect": "Allow",
-      "Principal": {
-        "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity EP6AJZA5FKG3P"
-      },
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::superawesome.xyz/*"
+    "Version": "2012-10-17",
+    "Statement": {
+        "Sid": "AllowCloudFrontServicePrincipalReadOnly",
+        "Effect": "Allow",
+        "Principal": {
+            "Service": "cloudfront.amazonaws.com"
+        },
+        "Action": "s3:GetObject",
+        "Resource": "arn:aws:s3:::<Bucket-Name>/*",
+        "Condition": {
+            "StringEquals": {
+                "AWS:SourceArn": "arn:aws:cloudfront::<AWS-Account-ID>:distribution/<CloudFront-Distribution-ID>"
+            }
+        }
     }
-  ]
 }
 ```
 
